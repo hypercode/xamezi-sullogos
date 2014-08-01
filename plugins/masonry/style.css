@@ -1,0 +1,13 @@
+/**** Base styles ****/
+.item {
+	width: 220px;
+	margin: 10px;
+	float: left;
+	background-color: rgb(237, 237, 237);
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #C00;  
+	overflow:hidden;
+	
+}
+

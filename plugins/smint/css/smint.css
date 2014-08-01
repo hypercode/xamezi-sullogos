@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.smint_menu{
+	height:30px;
+	position:absolute;
+	z-index:999;
+	background-image:url(../../../assets/textures/subtle_dots/subtle_dots.png);
+	background-repeat:repeat;
+	padding-top:5px;
+	margin-bottom:20px;
+	border-bottom:2px groove black;
+	}
+.smint_menu a{
+	margin:0 20px 0 20px;
+	vertical-align:bottom; 
+	/*border:1px solid red;*/
+	}
+.smint_menu a:hover{
+	 cursor:pointer;
+	}
+.smint_menu a img{
+	  height:22px;
+	  margin-bottom:-5px;
+	}

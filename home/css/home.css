@@ -1,0 +1,105 @@
+ @charset "utf-8";
+/* CSS Document */
+
+#container{
+	float:left;
+	width:69%;
+	/*border:1px solid green;*/
+
+	}
+#rightDiv{
+	float:right;
+	width:30%;
+	
+	}
+#newsWindow{
+	 height:300px;
+	 width:95%;
+	 overflow:hidden;
+	 position:relative;
+	 margin:10px;
+	 padding:10px;
+	 
+	 	}
+#newsShow{
+	 position:absolute;
+	 top:0px;
+	 left:0px;
+	 z-index:999;
+	 display:none;
+	}
+#controls img{
+	float:right;
+	margin:5px;
+	cursor:pointer;
+	}
+#controls img#close{
+	 float:left;
+	 display:none;
+	}
+.news{
+	border-bottom-width: 2px;
+	border-bottom-style: groove;
+	border-bottom-color: #AAA;
+	margin-bottom:10px;
+	cursor:pointer;
+	}
+.news .title, #newsShow .title{
+	display:block;
+	font-size: 18px;
+	font-weight: 500;
+	color: #333;	   
+	}
+.news .description{
+	display:none;
+	}
+.articleContainer{
+	height:520px;
+	overflow:hidden;
+	border-color:green !important;
+	}
+.rssFeed{
+	border-color:blue !important;
+	}
+.article{
+	 width:100%;
+	}
+.article .body, .article .prologue{
+	 font-weight: normal;
+	}
+#museum_link{
+	 width:260px;
+	 margin-left:auto;
+	 margin-right:auto;
+	 margin-top:60px;
+	 margin-bottom:20px;
+	 /*border:1px solid red;*/
+	}
+#museum_link img{
+	width:100%;
+	}
+.event .title{
+	color: #000;
+	font-weight: bold;
+	margin:5px;
+	}
+.event .description{
+	color: #000;
+	font-weight: normal;
+	}
+.eventImageSlider{
+	 width:270px;
+	 height:170px;
+	 margin-left:auto;
+	 margin-right:auto;
+	 margin-bottom:20px;
+	 overflow:hidden;
+	}
+.eventImageSlider img{
+	 display:none;
+	 width:100%;
+	}
+.eventThumbImages{
+	 display:none;
+	}
+	

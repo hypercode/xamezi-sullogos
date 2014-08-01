@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+span.cke_wrapper cke_ltr,table.cke_editor, td.cke_contents, span.cke_skin_kama, span.cke_wrapper, span.cke_browser_webkit{
+                                                                                                                       height: 1000px !important;
+                                                                                                                         }
+
+#textAreaArticle{
+	margin-top:15px;
+	margin-bottom:15px;
+	height:600px;
+	width:100%;
+	}
+#editor1,.cke_editor{
+	height:100% !important;
+	}
+#saveMessage{
+	width:200px;
+	color: #090;
+	float:right;
+	}
+.articleContainer{
+	width:360px;
+	height:520px;
+	margin:10px;
+	position:relative;
+	display:inline-block;
+	overflow:hidden;
+	border:1px solid #fff;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+	 padding:2px;
+/*	border:1px solid blue;*/
+	}
+.article{
+	 width:100%;
+	 background-color: rgb(247, 247, 247);
+	 overflow:hidden;
+	
+	/* border:1px solid red;*/
+	 
+	}
+.articlesOfSameCategory{
+	margin-bottom:30px;
+	}
+.deleteArticle{
+	  position:absolute;
+	  top:10px;
+	  right:10px;
+	  z-index:10;
+	}

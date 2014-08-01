@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:80% !important;
+	}
+#pdf{
+	 width:80%;
+	 background-color:#CCCCCC;
+	}

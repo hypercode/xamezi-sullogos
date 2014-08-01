@@ -1,0 +1,173 @@
+/* CSS Document */
+@charset "utf-8";
+
+#eventIDHidden{
+	  display:none;
+	}
+#info{
+	 width:500px;
+	 padding-left:15px;
+	 display:inline-block;
+	/* border:1px solid red;*/
+	}
+#title{
+	 font-weight:bolder;
+	 font-size:14px;
+	 width:76%;
+	 float:left;
+	}
+#datePicker,#date{
+	 width:15%;
+	 float:right;
+	 text-align:right;
+	 padding-right:20px;
+	 }
+#date{
+	font-size: 11px;
+	}
+#description,#descriptionEdit{
+	 width:98%; 
+	 margin-top:35px; 
+	 margin-bottom:15px;
+	/* border:1px solid red;*/
+	}
+#media{
+	 height:600px;
+	 margin-bottom:15px;
+	}
+#photos{
+	 width:70%;
+	 height:100%;
+	 float:left;
+	 overflow-y:auto;
+	 padding-left:15px;
+	}
+#videos{
+     width:25%;
+	 height:100%;
+	 float:left;
+	 overflow-y:hidden;
+	 /*border:1px solid green;*/
+	}
+#videosList{
+	 height:100%;
+	 overflow-y:auto;
+	/* border:1px solid red;*/
+	}
+#videosList li{
+	margin-bottom:15px;
+	}
+#videosList li a{
+	font-size: 14px;
+	color: #333;	
+	}
+ul.fadeIn{
+	padding:0px;
+	}
+ul.fadeIn li{
+	  list-style:none;
+	  /*display:none;*/
+	  float:left;
+	  width:225px;
+	  height:160px;
+	  margin:2px;
+	}
+ul.fadeIn li img{
+	  width:100%;
+	  height:100%;  
+	}
+ul.fadeIn li .deleteImage{
+	  display:none;
+	  position:relative;
+	  top:-150px;
+	  right:-140px;
+	  z-index:10;
+	}
+.deleteEvent{
+	  position:absolute;
+	  top:10px;
+	  right:10px;
+	  z-index:10;
+	}
+ul.fadeIn li img.add{
+	  width:48px;
+	  height:48px;
+	  display:block;
+	  margin-left:auto;
+	  margin-right:auto;
+	}
+
+#comments{
+	   /*border:2px solid red;*/
+	   width:550px;
+	}
+#newComment{
+		/*border:1px solid black;*/
+	}
+.comment{
+  /*border:1px solid blue;*/
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  width:100%;
+  float:left;
+  margin-top:20px;
+  background-color:#F5F5F5;
+	}
+.commentUser{
+	float:left;
+	margin-right:10px;
+	/*border:1px solid green;*/
+	color: #0000A0;
+	}
+.commentTime{
+	float:left;
+	width:49%;
+	font-size: smaller;
+	color: #999;	
+	/*border:1px solid green;*/
+	}
+.commentContent{
+	float:left;
+	width:100%;
+	margin:10px;
+	font-family: Arial, Helvetica, sans-serif;	/* border:1px solid green;*/
+	font-size:14px;
+	}
+.commentLikes{
+	float:left;
+	width:70px;
+	height:22px;
+	/*border:1px solid green;*/
+	}
+.likeButton{
+	 width:20px;
+	 height:20px;
+	 float:left;
+	 margin-right:10px;
+	 /*border:1px solid black;*/
+	}
+.likeButton:hover{
+	cursor:pointer;
+    }
+.likeCount{
+	  color:#666;
+	  width:30px;
+	  float:left;
+	 /* border:1px solid red;*/
+	}
+ul li{
+	list-style:none;
+	}
+.deleteUploadListItem{
+	widows:13px;
+	height:13px;
+	margin-left:20px;
+	cursor:pointer;
+}
+
+
+
+
+
+

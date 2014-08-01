@@ -1,0 +1,117 @@
+/* CSS Document */
+@import url(header.css);
+@import url(footer.css);
+@charset "utf-8";
+@font-face{
+	font-family:logoFont;
+	src:url(../assets/fonts/American%20Captain.otf);
+	}
+
+html{
+	 
+	 margin:0 !important;
+	 padding:0;
+	 /*font-family: Verdana, Geneva, sans-serif;*/
+	 border:0;
+	}
+body{
+	
+	 margin:0 !important;
+	 padding:0;
+	 border:0;
+	 background-color:#000;
+	 background-image:url(../assets/textures/debut_light/debut_light_@2X.png);
+	 background-repeat:repeat;
+	 
+	 }
+
+#main_body{
+	  margin-top:0px;
+	  padding-top:15px;
+	  background-color:#FFFFFF;
+	  
+	 /* box-shadow: 0px 0px 4px 2px rgba(119, 119, 119, 0.75);
+	 -moz-box-shadow: 0px 0px 4px 2px rgba(119, 119, 119, 0.75);
+     -webkit-box-shadow: 0px 0px 4px 2px rgba(119, 119, 119, 0.75);*/
+	}
+#main_body,#logo_and_menu,.smint_menu{
+	   width:1100px;
+	   margin-left:auto;
+	   margin-right:auto;
+	}
+#footer,#signup_login{
+	  background-color:#252525;
+	}
+#events,#articles{
+   margin-top:60px;
+	}	
+.eventsOfOneYear, .articlesOfSameCategory{
+	margin-top:15px;
+	box-shadow: 0px 0px 4px 1px rgba(119, 119, 119, 0.75);
+	-moz-box-shadow: 0px 0px 4px 1px rgba(119, 119, 119, 0.75);
+	-webkit-box-shadow: 0px 0px 4px 1px rgba(119, 119, 119, 0.75);
+	}
+.eventsOfOneYear .year, .articlesOfSameCategory .category{
+	font-size: 18px;
+	font-weight: 500;
+	color: #333;
+	margin-left:10px;
+	padding-top:15px;
+	font-family: "Times New Roman", Times, serif;
+	
+	}
+img.icon{
+	 width:15px;
+	}
+.delete{
+	display:none;
+	cursor:pointer;
+	}
+.clear{
+	 clear:both;
+	}
+.scroll{
+	overflow:hidden !important;
+	}
+.successMessage{
+	color: #390;	  
+		}
+.failedMessage{
+	color:#F00;
+	}
+a{
+	text-decoration:none;
+	}
+a:hover{
+	  text-decoration:none;
+	}
+p{
+	color:black;
+	font-style: normal;
+	font-weight:lighter;
+	}
+input{ 
+    border: 1px solid #c4c4c4; 
+    margin:2px;
+    font-size: 13px; 
+    padding: 4px 4px 4px 4px; 
+    border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    box-shadow: 0px 0px 8px #d9d9d9; 
+    -moz-box-shadow: 0px 0px 8px #d9d9d9; 
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9; 
+} 
+button{
+	border: 1px solid #c4c4c4; 
+    margin:2px;
+    font-size: 13px; 
+    padding: 4px 4px 4px 4px; 
+    border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    box-shadow: 0px 0px 8px #d9d9d9; 
+    -moz-box-shadow: 0px 0px 8px #d9d9d9; 
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9; 
+	background-color:#FFFFFF;
+	}

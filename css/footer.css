@@ -1,0 +1,36 @@
+/* CSS Document */
+@charset "utf-8";
+#footer{
+	height:80px;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:0px;
+	box-shadow: 0px 0px 4px 3px rgba(119, 119, 119, 0.75);
+	-moz-box-shadow: 0px 0px 4px 3px rgba(119, 119, 119, 0.75);
+	-webkit-box-shadow: 0px 0px 4px 3px rgba(119, 119, 119, 0.75);
+	/*border:1px solid green;*/
+    }
+#nav_menu_footer{
+	display:inline-block;
+	margin-top:15px;
+	}
+#nav_menu_footer ul{
+	 list-style-type:none;
+	}
+#nav_menu_footer ul li{
+	 display:inline;
+	 margin-right:15px;
+	}
+#nav_menu_footer ul li a{
+	color: #CCC;
+	font-size:12px;
+	text-decoration:none;
+	}
+#nav_menu_footer ul li a:hover{
+	color: #FFF;
+	}
+#copyright{
+	  color: #CCC;
+	  font-size:10px;
+	  margin-bottom:15px;
+	}
